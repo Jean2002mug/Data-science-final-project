@@ -3,7 +3,7 @@
 ## Introduction
 The book industry is a dynamic market influenced by various factors, including genre, publisher type, and pricing strategies. This analysis examines book sales data to identify trends in genre popularity, publisher influence, and revenue distribution. By leveraging data science techniques, we aim to uncover insights that can inform decision-making for publishers, authors, and retailers.
 
-For the full analysis, you can read the complete document at [this link](https://github.com/Jean2002mug/Data-science-final-project/blob/main/Final_project.pdf).
+For the full analysis, you can read the complete document at [this link](https://github.com/Jean2002mug/Data-science-final-project/blob/main/project/doc/Final_project.pdf).
 
 ## Data Cleaning
 The dataset contained no null values, but there were 8,733 instances of zero values. These zeros could indicate missing data or actual values, requiring careful treatment. To confirm the absence of null values, I used the `isnull()` function, which returned `False` for all entries.
@@ -98,7 +98,7 @@ Sellers and publishers reap the highest revenue, while authors earn significantl
 This analysis provides valuable insights into book sales and publisher influence. Fiction remains the most popular genre, while Nonfiction generates the highest revenue. Publisher type exhibits a weak correlation with daily units sold, and revenue distribution heavily favors sellers and publishers over authors. Regression analysis confirmed that Fiction and Nonfiction significantly impact revenue, while other genres contribute less. Further exploration is recommended to determine additional factors influencing book sales performance.
 
 ## Sources
-- Data source: [Book Sales Dataset](https://github.com/Jean2002mug/Data-science-final-project/blob/main/Final_project.pdf)
+- Data source: [Book Sales Dataset](https://github.com/Jean2002mug/Data-science-final-project/blob/main/project/doc/Final_project.pdf)
 - Python libraries used: Pandas, NumPy, Matplotlib, Scikit-learn
 - Statistical concepts: Mean, Correlation Coefficients, Regression Analysis, Data Cleaning Best Practices
 
